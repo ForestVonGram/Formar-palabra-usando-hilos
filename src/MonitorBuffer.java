@@ -18,7 +18,7 @@ public class MonitorBuffer {
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
-        }
+        } 
 
         //Recoge el número de caracteres indicados o hasta que esté vacío
         for (int i = 0; i < cantidad && siguiente > 0; i++) {
